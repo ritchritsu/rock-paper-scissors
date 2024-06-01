@@ -1,0 +1,22 @@
+getComputerChoice 
+    will get a random number from 1 to 3, (1 being rock, 2 being paper, 3 being scissors) and return that
+getHumanChoice 
+    will get an input from a human (rock, paper or scissors)
+
+gameFunction will have a counter for each player, and will increment by 1 if the player wins, and it'll end at 5 points
+    rock is 0
+    paper is 1
+    scissors is 2
+
+    if player1 == player 2
+        return Tie
+    if player1 - player2 % 3 == 
+        human +=1
+    else
+        robot +=1
+
+    
+
+    if human OR robot == 5
+        print _____ wins! 
+
