@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0; /* for all sides*/
+    padding: 0;
+}
+
+
+body {
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+font-family: 'Raleway', sans-serif;
+
+}
+
+.flex-container {
+    display: flex;
+    height: 70vh;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    gap: 2px;
+    justify-content: space-evenly;
+
+}
+
+.bigBox {
+    margin-top: 50px;
+    min-width: 30%;
+    height: 50vh;
+    text-align: center;
+    flex: 0 0 20vw; /* Prevent shrinking and growing */
+    border: 2px solid white;
+    border-radius: 70px;
+}
+
+.bigBox h1{
+    position: relative;
+    top: 20px;
+}
+
+
+.choices-box {
+    display: flex;
+    height: 30vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    gap: 2px;
+   
+}
+
+.smallBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    height: 27vh;
+    flex: 0 0 20vw; /* Prevent shrinking and growing */
+    border: 1%;
+    border-radius: 70px;
+    
+}
+
+.smallBox i{
+    font-size: 6em;
+    transition: transform 0.1s ease-in-out;
+}
+
+.smallBox i:hover{
+    transform: scale(1.2);
+}
+
+
+
+.humanScore, .robotScore{
+    padding: 6%;
+    position: relative;
+    top: 55%;
+    font-size: 30px;
+}
+
+.robot i, .human i{
+    font-size: 150px;
+    position: relative;
+    top: 150px;
+}
+
+.results{
+    text-align: center;
+    font-weight: 700;
+}
